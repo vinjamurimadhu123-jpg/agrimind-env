@@ -1,0 +1,7 @@
+name: agrimind-env
+description: AI farming decision environment
+
+tasks:
+  - easy
+  - medium
+  - hard

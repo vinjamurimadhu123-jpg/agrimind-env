@@ -1,6 +1,9 @@
-from env.environment import AgriMindEnv
-print("[START]")
 
+print("[START]")
+try:
+    from env.environment import AgriMindEnv
+except:
+    from environment import AgriMindEnv
 from env.environment import AgriMindEnv
 
 env = AgriMindEnv()

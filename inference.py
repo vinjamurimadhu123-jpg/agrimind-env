@@ -1,4 +1,4 @@
-
+from env.environment import AgriMindEnv
 print("[START]")
 
 from env.environment import AgriMindEnv
